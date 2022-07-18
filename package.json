@@ -8,7 +8,7 @@
   },
   "scripts": {
     "server": "http-server -c-1 -p 9999",
-    "start": "forver start app.js",
+    "start": "forever start app.js",
     "start1": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
      "sonar": "node sonar-project.js"
