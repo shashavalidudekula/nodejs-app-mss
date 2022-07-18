@@ -8,7 +8,7 @@
   },
   "scripts": {
     "server": "http-server -c-1 -p 9999",
-    "start": "forever start --minUptime 1000 --spinSleepTime 1000 /var/lib/jenkins/workspace/nodejs-scripted/app.js",
+    "start": "forever start --minUptime 1000 --spinSleepTime 1000 app.js",
     "start1": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
      "sonar": "node sonar-project.js"
